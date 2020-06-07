@@ -1,0 +1,19 @@
+h2 {
+   color: blue;
+   text-align: center;
+   font-family: cursive;
+
+}
+.w1{
+    color: rgb(126, 3, 126);
+    font-weight: bolder;
+    font-family: cursive;
+}
+.w2{
+    text-align: center;
+    font-family: cursive;
+    
+}
+body{
+    background-color: yellowgreen;
+}
