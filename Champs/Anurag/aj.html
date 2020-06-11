@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="aj.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div>
+        <img src="yahoo.jpg" alt="yahoo" height="356px" width="100%"
+            style="margin-left:auto;margin-right: auto;display: block;border: 3px dotted red; ">
+        <p>
+            <img src="funy.jpg" alt="yahoo" style="float:left;width:75px;height:50px;">
+            <img src="funy.jpg" alt="yahoo" style="float:right;width:75px;height:50px;">
+        <h2>Hi There!</h2>
+        </p>
+        <P align="center" style="color: rgb(146, 43, 43);">Well get u set up on yahoo! just three steps!</P>
+    </div>
+    <hr>
+    <form>
+
+        <h4 class="w1">Tell Me About Yourself.........</h4>
+        <div class="w2">
+            Name: <input type="text" name="FName" placeholder="First Name"> <input type="text" name="FName"
+                placeholder="Last Name" required>
+            <br><br>
+            Gender: Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender"> Other <input
+                type="radio" name="Gender">
+            <br><br>
+            Birthday: <input type="date" name="date" required>
+            <br><br>
+            Country: <input type="text" name="Country"><br><br>
+            Postal Code: <input type="text" name="postalcode">
+        </div>
+
+        <h4 class="w1">Select an ID and Password</h4>
+        <div class="w2">
+            Yahoo ID : <input type="text" name="email" required> @yahoo.com<br><br>
+            Password : <input type="password" name="password" required><br><br>
+            Re-Type Password : <input type="password" name="password" required><br>
+        </div>
+
+        <h4 class="w1">In case you forget id or password </h4>
+        <div class="w2">
+            Alternate email : <input type="email" name="myemail" placeholder="123xyz@email.com"><br><br>
+            <label for="Security">Security Question:</label>
+            <select name="Security" id="Security">
+                <option value="1">What is ur favorite book?</option>
+                <option value="2">What is ur favorite color?</option>
+                <option value="3">What is ur favorite car?</option>
+                <option value="4">What is ur favorite drink?</option>
+            </select><br><br>
+            Your Answer : <textarea name="textarea" cols="30" rows="1"></textarea><br>
+        </div>
+        <hr>
+        <p class="w2">Do You Agree : <input type="checkbox" name="agree" required> I agree to terms and conditions.</p>
+        <div class="w2">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+
+
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+       SIGN IN PAGE
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+    
+   
+         #firstPara{
+            color:  rgb(130, 57, 150);
+            font-family:'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            height: 30px;
+            width:15px;
+         }
+        #secondpara{
+            color: black;
+            font-size: 15px;
+            font-family:Arial, Helvetica, sans-serif, sans-serif;
+          
+        }
+        .third{
+            color: rgb(130, 57, 150);
+            font-family:'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+        }
+        .fourthpara{
+            height: 200px;
+            width:200px; 
+            border: 2px solid pink;
+            background-image: url('my dp.jfif');
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+        .xyz{
+            color: rgb(134, 54, 134);
+            font-family:'Ubuntu', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="logo.png" align= "centre" style="width:50 px;height:50px; margin:50 px 650px" >
+    <br> 
+    <span id="firstPara">HI THERE !</span>
+    <p id="secondpara">Set up your first ever yahoo ID , <br>
+        select an ID and password and you are all set<br>
+    <br>
+   Already have an email address?
+   <br> sign in here !
+   <form>
+    <input type="submit" value="Sign in">
+
+   </form>
+     <br><hr>
+    </p>
+    <p class="third"><u>1. Tell us about yourself</u></p>
+    <form action="backend.php">
+        <div>
+        <label for="firstname"> first name</label>
+        
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+        <label for="email"> email </label>
+    
+             <input type="email" name="myEmail" id="email">@yahoo.in
+             </div>
+        <br>
+        <div>
+            <label for="firstpass"> Choose your password</label>
+            
+                <input type="text" name="firstpass" id="firstpass">
+            </div>
+            <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+           Birth Date: <input type="date" name="myDate">
+        </div>
+        
+        <br>
+        <div>
+                <div>
+                    Are you 18+ ?: <input type="checkbox" name="myEligibility" >
+                </div>
+                <br>
+            <label for="car">Security Question</label>
+            <select name="myquestion" id="question">
+                <option value="pet">fav. pet</option>
+                <option value="teacher" selected>teacher</option>
+                <option value="other" selected>other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+           Write your answer: <br><textarea name="myText" cols="30" rows="2""></textarea>
+        </div>
+        <p class ="xyz">Captcha:
+        </p><br>
+        <img src="https://source.unsplash.com/collection/190727/200x200" alt="Get a faster internet brother !"width="100" height="100">
+        <div>
+            Write whatever you see: <br><textarea name="captcha" cols="15" rows="1""></textarea>
+        
+         </div><br>
+         <div>
+            Do you agree to our terms and conditions ?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+            <input type="submit" value="CREATE MY ACCOUNT">
+  
+               <input type="reset" value="CANCEL AND RESET">
+        
+    </form>
+    <br>
+    
+      <h3 class="xyz"><u></u></h3>
+      
+</body>
+</html>
